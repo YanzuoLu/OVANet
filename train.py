@@ -49,8 +49,8 @@ parser.add_argument('--multi', type=float,
 args = parser.parse_args()
 
 config_file = args.config
-conf = yaml.load(open(config_file))
-save_config = yaml.load(open(config_file))
+conf = yaml.safe_load(open(config_file))
+save_config = yaml.safe_load(open(config_file))
 conf = easydict.EasyDict(conf)
 gpu_devices = ','.join([str(id) for id in args.gpu_devices])
 os.environ["CUDA_VISIBLE_DEVICES"] = gpu_devices
