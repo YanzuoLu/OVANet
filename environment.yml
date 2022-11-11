@@ -1,0 +1,13 @@
+name: ovanet
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.6.9
+  - cudatoolkit=10.2
+  - pytorch=1.6.0
+  - torchvision=0.7.0
+  - packaging
+  - pyyaml
+  - easydict
+  - scikit-learn
