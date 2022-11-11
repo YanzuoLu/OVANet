@@ -5,6 +5,7 @@
 
 ```shell
 git clone git@github.com:YanzuoLu/OVANet.git
+cd OVANet
 git submodule init
 git submodule update
 conda env create -f environment.yml
