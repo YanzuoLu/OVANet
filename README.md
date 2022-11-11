@@ -1,5 +1,18 @@
 ## [OVANet: One-vs-All Network for Universal Domain Adaptation (ICCV2021)](https://arxiv.org/pdf/2104.03344.pdf)
 
+
+## Installation Guide (Overrided)
+
+```shell
+git clone git@github.com:YanzuoLu/OVANet.git
+git submodule init
+git submodule update
+conda env create -f environment.yml
+cd apex
+pip install -v --disable-pip-version-check --no-cache-dir ./
+```
+
+
 ![OVANet Overview](images/animation_ovanet.gif)
 
 
