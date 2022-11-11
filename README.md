@@ -9,6 +9,7 @@ cd OVANet
 git submodule init
 git submodule update
 conda env create -f environment.yml
+conda activate ovanet
 cd apex
 pip install -v --disable-pip-version-check --no-cache-dir ./
 ```
